@@ -188,7 +188,7 @@ class Program
         do
         {
             Console.Clear();
-            Console.WriteLine("== MENÚ USUARIOS ==");
+            Console.WriteLine("=== MENÚ USUARIOS ===");
             Console.WriteLine("1. Registrar usuario");
             Console.WriteLine("2. Listar usuarios");
             Console.WriteLine("3. Ver detalle usuario");
