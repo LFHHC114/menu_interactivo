@@ -64,9 +64,9 @@ class Program
         } while (option != 6);
     }
 
-    // ==============================
+    // ===================
     // MENÚ LIBROS
-    // ==============================
+    // ===================
 
     static void ShowBooksMenu()
     {
@@ -75,7 +75,7 @@ class Program
         do
         {
             Console.Clear();
-            Console.WriteLine("=== MENÚ LIBROS ===");
+            Console.WriteLine("== MENÚ LIBROS ==");
             Console.WriteLine("1. Registrar libro");
             Console.WriteLine("2. Listar libros");
             Console.WriteLine("3. Ver detalle");

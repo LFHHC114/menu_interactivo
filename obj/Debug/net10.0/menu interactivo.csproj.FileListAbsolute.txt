@@ -1,0 +1,15 @@
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\bin\Debug\net10.0\menu interactivo.exe
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\bin\Debug\net10.0\menu interactivo.deps.json
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\bin\Debug\net10.0\menu interactivo.runtimeconfig.json
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\bin\Debug\net10.0\menu interactivo.dll
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\bin\Debug\net10.0\menu interactivo.pdb
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\obj\Debug\net10.0\menu interactivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\obj\Debug\net10.0\menu interactivo.AssemblyInfoInputs.cache
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\obj\Debug\net10.0\menu interactivo.AssemblyInfo.cs
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\obj\Debug\net10.0\menu interactivo.csproj.CoreCompileInputs.cache
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\obj\Debug\net10.0\menu interactivo.sourcelink.json
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\obj\Debug\net10.0\menu interactivo.dll
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\obj\Debug\net10.0\refint\menu interactivo.dll
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\obj\Debug\net10.0\menu interactivo.pdb
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\obj\Debug\net10.0\menu interactivo.genruntimeconfig.cache
+C:\Users\hurta\OneDrive\Escritorio\menu interactivo\obj\Debug\net10.0\ref\menu interactivo.dll
