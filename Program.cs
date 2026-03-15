@@ -268,7 +268,7 @@ class Program
         do
         {
             Console.Clear();
-            Console.WriteLine("=== MENÚ PRÉSTAMOS ===");
+            Console.WriteLine("== MENÚ PRÉSTAMOS ==");
             Console.WriteLine("1. Crear préstamo");
             Console.WriteLine("2. Listar préstamos");
             Console.WriteLine("3. Ver detalle préstamo");
