@@ -7,9 +7,6 @@ class Program
         ShowMainMenu();
     }
 
-    // ==============================
-    // MENÚ PRINCIPAL
-    // ==============================
 
     static void ShowMainMenu()
     {
@@ -64,10 +61,7 @@ class Program
         } while (option != 6);
     }
 
-    // ===================
-    // MENÚ LIBROS
-    // ===================
-
+    
     static void ShowBooksMenu()
     {
         int option;
@@ -177,9 +171,6 @@ class Program
         } while (option != 0);
     }
 
-    // ==============================
-    // MENÚ USUARIOS
-    // ==============================
 
     static void ShowUsersMenu()
     {
@@ -257,9 +248,6 @@ class Program
         } while (option != 0);
     }
 
-    // ==============================
-    // MENÚ PRÉSTAMOS
-    // ==============================
 
     static void ShowLoansMenu()
     {
@@ -337,11 +325,8 @@ class Program
         } while (option != 0);
     }
 
-    // ==============================
-    // MENÚ BÚSQUEDAS Y REPORTES
-    // ==============================
-
-    static void ShowSearchReportsMenu()
+    
+        static void ShowSearchReportsMenu()
     {
         int option;
 
@@ -412,9 +397,6 @@ class Program
         } while (option != 0);
     }
 
-    // ==============================
-    // MENÚ PERSISTENCIA
-    // ==============================
 
     static void ShowPersistenceMenu()
     {
