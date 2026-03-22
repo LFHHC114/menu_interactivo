@@ -2,29 +2,34 @@ using System;
 
 public class Prestamo
 {
-    public int Id { get; set; }
+    public string Id { get; set; }
+    public Libro Libro { get; set; }
+    public Usuario Usuario { get; set; }
     public DateTime FechaPrestamo { get; set; }
+    public DateTime FechaLimite { get; set; }
     public DateTime? FechaDevolucion { get; set; }
     public EstadoPrestamo Estado { get; set; }
 
     public Prestamo()
     {
         Estado = EstadoPrestamo.Activo;
-        FechaPrestamo = DateTime.Now;
         FechaDevolucion = null;
     }
 
-    public Prestamo(int id, DateTime fechaPrestamo)
+    public Prestamo(string id, Libro libro, Usuario usuario, DateTime fechaPrestamo, DateTime fechaLimite)
     {
         Id = id;
+        Libro = libro;
+        Usuario = usuario;
         FechaPrestamo = fechaPrestamo;
+        FechaLimite = fechaLimite;
         Estado = EstadoPrestamo.Activo;
         FechaDevolucion = null;
     }
 
     public bool EstaVencido()
     {
-        return (DateTime.Now - FechaPrestamo).Days > 7;
+        return DateTime.Now > FechaLimite && Estado == EstadoPrestamo.Activo;
     }
 
     public int DiasTranscurridos()
@@ -34,12 +39,12 @@ public class Prestamo
 
     public string ResumenCorto()
     {
-        return $"Préstamo {Id} - Estado: {Estado}";
+        return $"Préstamo {Id} - {Libro.Titulo} a {Usuario.Nombre}";
     }
 
     public string DetalleCompleto()
     {
-        return $"ID: {Id}, Fecha: {FechaPrestamo}, Estado: {Estado}";
+        return $"ID: {Id} | Libro: {Libro.Titulo} | Usuario: {Usuario.Nombre} | Estado: {Estado}";
     }
 
     public override string ToString()
