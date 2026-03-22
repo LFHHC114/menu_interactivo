@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("menu interactivo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f714c4ec86d36d58e732eb9af31e2d0977d1c55")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f700bacd07d0c45b66afbfe52dad99c99ab1c792")]
+>>>>>>> feature/models-testing-objetos
 [assembly: System.Reflection.AssemblyProductAttribute("menu interactivo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("menu interactivo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
